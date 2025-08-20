@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "key": {
+    "C": { "item": "minecraft:copper_ingot" },
+    "B": { "item": "minecraft:bucket" }
+  },
+  "result": { "item": "teatime:kettle" }
+}

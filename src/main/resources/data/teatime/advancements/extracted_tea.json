@@ -1,0 +1,15 @@
+{
+  "parent": "teatime:root",
+  "display": {
+    "icon": { "item": "teatime:tea" },
+    "title": { "translate": "adv.teatime.extracted_tea.title", "fallback": "It's always tea-time!" },
+    "description": { "translate": "adv.teatime.extracted_tea.desc", "fallback": "Extract tea from a kettle." },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "served": { "trigger": "minecraft:impossible" }
+  }
+}

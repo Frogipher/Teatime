@@ -1,0 +1,15 @@
+{
+  "parent": "teatime:root",
+  "display": {
+    "icon": { "item": "teatime:kettle" },
+    "title": { "translate": "adv.teatime.place_kettle.title", "fallback": "Local Teahouse" },
+    "description": { "translate": "adv.teatime.place_kettle.desc", "fallback": "Place a kettle." },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "served": { "trigger": "minecraft:impossible" }
+  }
+}

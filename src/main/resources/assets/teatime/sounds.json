@@ -1,0 +1,7 @@
+{
+  "kettle_whistle": {
+    "sounds": [
+      { "name": "teatime:kettle_whistle", "stream": false }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "item": "teatime:tea" },
+    "title": { "translate": "adv.teatime.root.title", "fallback": "TeaTime" },
+    "description": { "translate": "adv.teatime.root.desc", "fallback": "Brew and sip." },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "served": { "trigger": "minecraft:impossible" }
+  }
+}

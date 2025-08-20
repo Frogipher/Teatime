@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "teatime",
+	"version": "${version}",
+	"name": "Teatime",
+	"description": "A vanilla+ mod focused on customizable tea brews!",
+	"authors": [
+		"Frogipher"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/teatime/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.frogipher.teatime.Teatime"
+		],
+      "client": [ "net.frogipher.teatime.client.TeatimeClient" ],
+		"fabric-datagen": [
+			"net.frogipher.teatime.TeatimeDataGenerator"
+		]
+	},
+	"mixins": [
+		"teatime.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

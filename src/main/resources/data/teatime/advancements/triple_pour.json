@@ -1,0 +1,15 @@
+{
+  "parent": "teatime:root",
+  "display": {
+    "icon": { "item": "teatime:tea" },
+    "title": { "translate": "adv.teatime.triple_pour.title", "fallback": "You can always take more than nothing!" },
+    "description": { "translate": "adv.teatime.triple_pour.desc", "fallback": "Serve 3 cups at once." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "served": { "trigger": "minecraft:impossible" }
+  }
+}

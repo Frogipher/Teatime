@@ -1,0 +1,19 @@
+{
+  "itemGroup.teatime": "Teatime",
+
+  "item.teatime.teacup": "Teacup",
+  "item.teatime.tea": "Tea",
+
+  "block.teatime.kettle": "Kettle",
+
+  "tooltip.teatime.ingredients": "Ingredients:",
+
+  "adv.teatime.root.title": "TeaTime",
+  "adv.teatime.root.desc": "Brew and sip.",
+  "adv.teatime.extracted_tea.title": "It's always tea-time!",
+  "adv.teatime.extracted_tea.desc": "Extract tea from a kettle.",
+  "adv.teatime.triple_pour.title": "You can always take more than nothing!",
+  "adv.teatime.triple_pour.desc": "Serve 3 cups at once.",
+  "adv.teatime.place_kettle.title": "Local Teahouse",
+  "adv.teatime.place_kettle.desc": "Place a kettle."
+}
