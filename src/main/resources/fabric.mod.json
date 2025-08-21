@@ -1,17 +1,17 @@
 {
 	"schemaVersion": 1,
 	"id": "teatime",
-	"version": "${version}",
+	"version": "Fabric 1.20.1",
 	"name": "Teatime",
 	"description": "A vanilla+ mod focused on customizable tea brews!",
 	"authors": [
 		"Frogipher"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/tea_time",
+		"sources": "https://github.com/Frogipher/Teatime"
 	},
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/teatime/icon.png",
 	"environment": "*",
 	"entrypoints": {
